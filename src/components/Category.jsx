@@ -27,7 +27,7 @@ const Category = () => {
           console.log(data);
           setUsers(data);
         } else {
-          alert("somethng went wrong with server , check once  !");
+          console.log("somethng went wrong with server , check once  !");
         }
       })
       .catch((err) => console.log("something went wrong with server"));
