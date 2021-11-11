@@ -43,9 +43,7 @@ const Category = () => {
             <Row>
               <Navigation />
             </Row>
-            <Row>
-              <Catcard users={users} />
-            </Row>
+            <Row>{/* <Catcard users={users} /> */}</Row>
           </Container>
         </>
       )}
